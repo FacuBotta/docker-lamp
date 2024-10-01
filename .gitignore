@@ -1,0 +1,15 @@
+docker-compose.override.yml
+.env
+
+mysql/data/*
+
+!mysql/data/.gitignore
+
+vendor/
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+*.cache
